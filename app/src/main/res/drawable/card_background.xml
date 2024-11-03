@@ -1,0 +1,18 @@
+<!-- res/drawable/card_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Ombre légère en arrière-plan -->
+    <item android:bottom="4dp">
+        <shape>
+            <solid android:color="#E14CA650" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+
+    <!-- Couleur de fond principale de la card -->
+    <item>
+        <shape>
+            <solid android:color="#CEDDCF" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+</layer-list>
